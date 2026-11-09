@@ -1,0 +1,53 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">College Transport Information Portal Flowchart</title>
+  <desc id="desc">A flowchart showing the user opening the portal, viewing the home dashboard, checking available buses, filtering by route or search, viewing pickup points and timings, submitting a transport request, and receiving a confirmation message.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2d5b9f"/>
+    </marker>
+    <style>
+      .title { font: 700 26px 'Segoe UI', Arial, sans-serif; fill: #1f2a44; }
+      .box { fill: #ffffff; stroke: #2d5b9f; stroke-width: 2.5; rx: 18; }
+      .text { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #1f2a44; }
+      .small { font: 600 17px 'Segoe UI', Arial, sans-serif; fill: #1f2a44; }
+      .line { stroke: #2d5b9f; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1200" height="520" fill="#f4f8ff"/>
+
+  <text x="600" y="44" text-anchor="middle" class="title">College Transport Information Portal</text>
+
+  <rect class="box" x="50" y="90" width="150" height="80"/>
+  <text x="125" y="136" text-anchor="middle" class="text">Open Portal</text>
+
+  <rect class="box" x="250" y="90" width="180" height="80"/>
+  <text x="340" y="136" text-anchor="middle" class="text">Home Dashboard</text>
+
+  <rect class="box" x="500" y="90" width="220" height="80"/>
+  <text x="610" y="136" text-anchor="middle" class="text">View Available Buses</text>
+
+  <rect class="box" x="820" y="90" width="290" height="80"/>
+  <text x="965" y="136" text-anchor="middle" class="small">Filter by Route / Time / Search</text>
+
+  <rect class="box" x="90" y="290" width="260" height="90"/>
+  <text x="220" y="335" text-anchor="middle" class="text">View Pickup Points</text>
+  <text x="220" y="360" text-anchor="middle" class="text">and Timings</text>
+
+  <rect class="box" x="420" y="290" width="270" height="90"/>
+  <text x="555" y="335" text-anchor="middle" class="text">Submit Transport</text>
+  <text x="555" y="360" text-anchor="middle" class="text">Request</text>
+
+  <rect class="box" x="790" y="290" width="280" height="90"/>
+  <text x="930" y="335" text-anchor="middle" class="text">Confirmation</text>
+  <text x="930" y="360" text-anchor="middle" class="text">Message</text>
+
+  <path class="line" d="M200 130 L250 130"/>
+  <path class="line" d="M430 130 L500 130"/>
+  <path class="line" d="M720 130 L820 130"/>
+
+  <path class="line" d="M965 170 L965 220 L220 220 L220 290"/>
+  <path class="line" d="M220 380 L220 420 L555 420 L555 380"/>
+  <path class="line" d="M690 335 L790 335"/>
+  <path class="line" d="M930 380 L930 420 L555 420"/>
+</svg>
